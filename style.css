@@ -1,0 +1,73 @@
+.header {
+    text-align: right;
+    flex: 1;
+}
+
+.container {
+    width: 90%;
+    height: 90vh;
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: 5s; 
+}
+    
+.btn:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d ;
+    cursor: pointer;
+}
+
+h4 {
+    color: #fcfc;
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tbl {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    color: azure;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn1 {
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    transition: 3s;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+    
+}
+
+.main {
+    text-align: center;
+}
+
